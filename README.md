@@ -88,13 +88,7 @@ Contribuições são bem-vindas! Sinta-se à vontade para:
 4. Push para a branch (`git push origin feature/AmazingFeature`)
 5. Abrir um Pull Request
 
-## 📞 Contato
 
-- **Email:** [seu.email@exemplo.com](mailto:seu.email@exemplo.com)
-- **LinkedIn:** [Seu Perfil](https://linkedin.com/in/seu-perfil)
-- **GitHub:** [@seu-usuario](https://github.com/seu-usuario)
-
----
 
 *Transformando a educação através da inovação tecnológica e metodologias ativas* 💜
 
