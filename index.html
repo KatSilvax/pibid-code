@@ -1,0 +1,2089 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>🚀 Mural Pedagógico Digital - PIBID/IFMS | Metodologias Ativas</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800;900&family=Space+Grotesk:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+</head>
+<body>
+    <!-- Cursor personalizado -->
+    <div class="cursor"></div>
+    <div class="cursor-follower"></div>
+
+    <!-- Navegação moderna -->
+    <nav class="modern-nav">
+        <div class="nav-logo">
+            <i class="fas fa-graduation-cap"></i>
+            <span>PIBID</span>
+        </div>
+        <div class="nav-links">
+            <a href="#inicio" class="nav-link active" data-section="inicio">Início</a>
+            <a href="#ferramentas" class="nav-link" data-section="ferramentas">Ferramentas</a>
+            <a href="#metodologias" class="nav-link" data-section="metodologias">Metodologias</a>
+            <a href="#praticas" class="nav-link" data-section="praticas">Práticas</a>
+            <a href="#desplugada" class="nav-link" data-section="desplugada">Desplugada</a>
+            <a href="#pilares" class="nav-link" data-section="pilares">Pilares</a>
+            <a href="#acessibilidade" class="nav-link" data-section="acessibilidade">Acessibilidade</a>
+            <a href="#bncc" class="nav-link" data-section="bncc">BNCC</a>
+            <a href="#materias" class="nav-link" data-section="materias">Matérias</a>
+            <a href="#ods" class="nav-link" data-section="ods">ODS</a>
+            <a href="#" class="nav-link pdf-generator" onclick="generatePDF()"><i class="fas fa-file-pdf"></i> Gerar PDF</a>
+        </div>
+        <div class="nav-toggle">
+            <span></span>
+            <span></span>
+            <span></span>
+        </div>
+    </nav>
+
+    <!-- Hero Section Ultra Moderno -->
+    <section id="inicio" class="hero-modern">
+        <div class="hero-particles"></div>
+        <div class="hero-grid">
+            <div class="grid-line"></div>
+            <div class="grid-line"></div>
+            <div class="grid-line"></div>
+            <div class="grid-line"></div>
+        </div>
+        
+        <div class="hero-content-modern">
+            <div class="hero-badge">
+                <span class="badge-icon">🏆</span>
+                <span class="badge-text">PIBID 2025 - Metodologias Ativas</span>
+                <div class="badge-glow"></div>
+            </div>
+            
+            <h1 class="hero-title-modern">
+                <span class="title-line">
+                    <span class="word" data-word="Mural">Mural</span>
+                    <span class="word gradient-word" data-word="Pedagógico">Pedagógico</span>
+                </span>
+                <span class="title-line">
+                    <span class="word highlight-word" data-word="Digital">Digital</span>
+                    <span class="title-decoration">✨</span>
+                </span>
+            </h1>
+            
+            <p class="hero-subtitle-modern">
+                Revolucionando a educação através de <strong>metodologias ativas</strong>, 
+                <strong>tecnologia inclusiva</strong> e <strong>inovação pedagógica</strong>
+            </p>
+            
+            <div class="hero-metrics">
+                <div class="metric" data-count="4">
+                    <div class="metric-number">0</div>
+                    <div class="metric-label">Ferramentas Digitais</div>
+                    <div class="metric-bar"></div>
+                </div>
+                <div class="metric" data-count="15">
+                    <div class="metric-number">0</div>
+                    <div class="metric-label">Atividades Práticas</div>
+                    <div class="metric-bar"></div>
+                </div>
+                <div class="metric" data-count="100">
+                    <div class="metric-number">0</div>
+                    <div class="metric-label">% Inclusivo</div>
+                    <div class="metric-bar"></div>
+                </div>
+            </div>
+            
+            <div class="hero-actions">
+                <button class="btn-primary-modern" onclick="scrollToSection('ferramentas')">
+                    <span class="btn-text">Explorar Projeto</span>
+                    <span class="btn-icon"><i class="fas fa-rocket"></i></span>
+                    <div class="btn-ripple"></div>
+                </button>
+                <button class="btn-secondary-modern" onclick="playDemo()">
+                    <span class="btn-text">Ver Demo</span>
+                    <span class="btn-icon"><i class="fas fa-play"></i></span>
+                </button>
+            </div>
+        </div>
+        
+        <div class="hero-visual">
+            <div class="floating-elements">
+                <div class="element element-1">
+                    <i class="fab fa-google"></i>
+                </div>
+                <div class="element element-2">
+                    <i class="fas fa-gamepad"></i>
+                </div>
+                <div class="element element-3">
+                    <i class="fas fa-palette"></i>
+                </div>
+                <div class="element element-4">
+                    <i class="fas fa-sticky-note"></i>
+                </div>
+            </div>
+            <div class="hero-device">
+                <div class="device-screen">
+                    <div class="screen-content">
+                        <div class="app-bar">
+                            <div class="app-dots">
+                                <span></span>
+                                <span></span>
+                                <span></span>
+                            </div>
+                        </div>
+                        <div class="screen-demo">
+                            <div class="demo-card active">
+                                <i class="fas fa-gamepad"></i>
+                                <span>Kahoot!</span>
+                            </div>
+                            <div class="demo-card">
+                                <i class="fas fa-palette"></i>
+                                <span>Canva</span>
+                            </div>
+                            <div class="demo-card">
+                                <i class="fab fa-google"></i>
+                                <span>Classroom</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Ferramentas Section Ultra Moderna -->
+    <section id="ferramentas" class="tools-modern">
+        <div class="container-modern">
+            <div class="section-header-modern">
+                <div class="section-badge">
+                    <i class="fas fa-tools"></i>
+                    <span>Ferramentas Digitais</span>
+                </div>
+                <h2 class="section-title-modern">
+                    Tecnologias que <span class="highlight">Transformam</span>
+                </h2>
+                <p class="section-subtitle-modern">
+                    Cada ferramenta foi estrategicamente selecionada para maximizar 
+                    o engajamento estudantil e potencializar a aprendizagem ativa
+                </p>
+            </div>
+            
+            <div class="tools-showcase">
+                <!-- Kahoot Card Ultra Moderna -->
+                <div class="tool-card-modern kahoot" data-tool="kahoot">
+                    <div class="card-glow"></div>
+                    <div class="card-header">
+                        <div class="tool-logo">
+                            <img src="https://kahoot.com/favicon.ico" alt="Kahoot" onerror="this.style.display='none'; this.nextElementSibling.style.display='flex'">
+                            <div class="logo-fallback"><i class="fas fa-gamepad"></i></div>
+                        </div>
+                        <div class="tool-info">
+                            <h3>Kahoot!</h3>
+                            <span class="tool-category">Gamificação</span>
+                        </div>
+                        <div class="tool-status">
+                            <div class="status-dot"></div>
+                            <span>Ativo</span>
+                        </div>
+                    </div>
+                    
+                    <div class="card-content">
+                        <p class="tool-description">
+                            Transforme avaliações em experiências lúdicas e envolventes através de 
+                            <strong>gamificação inteligente</strong> e <strong>feedback instantâneo</strong>
+                        </p>
+                        
+                        <div class="tool-features-modern">
+                            <div class="feature">
+                                <i class="fas fa-bolt"></i>
+                                <span>Tempo Real</span>
+                            </div>
+                            <div class="feature">
+                                <i class="fas fa-chart-line"></i>
+                                <span>Analytics</span>
+                            </div>
+                            <div class="feature">
+                                <i class="fas fa-users"></i>
+                                <span>Colaborativo</span>
+                            </div>
+                        </div>
+                        
+                        <div class="tool-stats">
+                            <div class="stat">
+                                <span class="stat-value">95%</span>
+                                <span class="stat-label">Engajamento</span>
+                            </div>
+                            <div class="stat">
+                                <span class="stat-value">3min</span>
+                                <span class="stat-label">Setup</span>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <div class="card-actions">
+                        <a href="https://kahoot.com/" target="_blank" class="btn-tool-primary">
+                            <i class="fas fa-external-link-alt"></i>
+                            <span>Acessar Plataforma</span>
+                        </a>
+                        <button class="btn-tool-secondary" onclick="showToolDetails('kahoot')">
+                            <i class="fas fa-info-circle"></i>
+                            <span>Ver Detalhes</span>
+                        </button>
+                    </div>
+                </div>
+
+                <!-- Canva Card -->
+                <div class="tool-card-modern canva" data-tool="canva">
+                    <div class="card-glow"></div>
+                    <div class="card-header">
+                        <div class="tool-logo">
+                            <img src="https://www.canva.com/favicon.ico" alt="Canva" onerror="this.style.display='none'; this.nextElementSibling.style.display='flex'">
+                            <div class="logo-fallback"><i class="fas fa-palette"></i></div>
+                        </div>
+                        <div class="tool-info">
+                            <h3>Canva</h3>
+                            <span class="tool-category">Design Visual</span>
+                        </div>
+                        <div class="tool-status">
+                            <div class="status-dot"></div>
+                            <span>Ativo</span>
+                        </div>
+                    </div>
+                    
+                    <div class="card-content">
+                        <p class="tool-description">
+                            Democratize a criação visual com <strong>templates educacionais</strong> 
+                            e ferramentas de <strong>design colaborativo</strong> intuitivas
+                        </p>
+                        
+                        <div class="tool-features-modern">
+                            <div class="feature">
+                                <i class="fas fa-magic"></i>
+                                <span>Templates</span>
+                            </div>
+                            <div class="feature">
+                                <i class="fas fa-share-alt"></i>
+                                <span>Compartilhamento</span>
+                            </div>
+                            <div class="feature">
+                                <i class="fas fa-mobile-alt"></i>
+                                <span>Responsivo</span>
+                            </div>
+                        </div>
+                        
+                        <div class="tool-stats">
+                            <div class="stat">
+                                <span class="stat-value">1000+</span>
+                                <span class="stat-label">Templates</span>
+                            </div>
+                            <div class="stat">
+                                <span class="stat-value">5min</span>
+                                <span class="stat-label">Criação</span>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <div class="card-actions">
+                        <a href="https://www.canva.com/education/" target="_blank" class="btn-tool-primary">
+                            <i class="fas fa-external-link-alt"></i>
+                            <span>Canva Educação</span>
+                        </a>
+                        <button class="btn-tool-secondary" onclick="showToolDetails('canva')">
+                            <i class="fas fa-info-circle"></i>
+                            <span>Ver Detalhes</span>
+                        </button>
+                    </div>
+                </div>
+
+                <!-- Google Classroom Card -->
+                <div class="tool-card-modern classroom" data-tool="classroom">
+                    <div class="card-glow"></div>
+                    <div class="card-header">
+                        <div class="tool-logo">
+                            <img src="https://classroom.google.com/favicon.ico" alt="Classroom" onerror="this.style.display='none'; this.nextElementSibling.style.display='flex'">
+                            <div class="logo-fallback"><i class="fab fa-google"></i></div>
+                        </div>
+                        <div class="tool-info">
+                            <h3>Google Classroom</h3>
+                            <span class="tool-category">Gestão Educacional</span>
+                        </div>
+                        <div class="tool-status">
+                            <div class="status-dot"></div>
+                            <span>Ativo</span>
+                        </div>
+                    </div>
+                    
+                    <div class="card-content">
+                        <p class="tool-description">
+                            Centralize e otimize a gestão educacional com <strong>ensino híbrido</strong> 
+                            e <strong>comunicação eficiente</strong> entre professores e alunos
+                        </p>
+                        
+                        <div class="tool-features-modern">
+                            <div class="feature">
+                                <i class="fas fa-cloud"></i>
+                                <span>Cloud</span>
+                            </div>
+                            <div class="feature">
+                                <i class="fas fa-sync"></i>
+                                <span>Sincronização</span>
+                            </div>
+                            <div class="feature">
+                                <i class="fas fa-shield-alt"></i>
+                                <span>Seguro</span>
+                            </div>
+                        </div>
+                        
+                        <div class="tool-stats">
+                            <div class="stat">
+                                <span class="stat-value">24/7</span>
+                                <span class="stat-label">Disponível</span>
+                            </div>
+                            <div class="stat">
+                                <span class="stat-value">∞</span>
+                                <span class="stat-label">Alunos</span>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <div class="card-actions">
+                        <a href="https://classroom.google.com/" target="_blank" class="btn-tool-primary">
+                            <i class="fas fa-external-link-alt"></i>
+                            <span>Acessar Classroom</span>
+                        </a>
+                        <button class="btn-tool-secondary" onclick="showToolDetails('classroom')">
+                            <i class="fas fa-info-circle"></i>
+                            <span>Ver Detalhes</span>
+                        </button>
+                    </div>
+                </div>
+
+                <!-- Padlet Card -->
+                <div class="tool-card-modern padlet" data-tool="padlet">
+                    <div class="card-glow"></div>
+                    <div class="card-header">
+                        <div class="tool-logo">
+                            <img src="https://padlet.com/favicon.ico" alt="Padlet" onerror="this.style.display='none'; this.nextElementSibling.style.display='flex'">
+                            <div class="logo-fallback"><i class="fas fa-sticky-note"></i></div>
+                        </div>
+                        <div class="tool-info">
+                            <h3>Padlet</h3>
+                            <span class="tool-category">Colaboração</span>
+                        </div>
+                        <div class="tool-status">
+                            <div class="status-dot"></div>
+                            <span>Ativo</span>
+                        </div>
+                    </div>
+                    
+                    <div class="card-content">
+                        <p class="tool-description">
+                            Fomente a <strong>colaboração criativa</strong> e o <strong>brainstorming visual</strong> 
+                            através de murais digitais interativos e dinâmicos
+                        </p>
+                        
+                        <div class="tool-features-modern">
+                            <div class="feature">
+                                <i class="fas fa-comments"></i>
+                                <span>Interativo</span>
+                            </div>
+                            <div class="feature">
+                                <i class="fas fa-images"></i>
+                                <span>Multimídia</span>
+                            </div>
+                            <div class="feature">
+                                <i class="fas fa-eye"></i>
+                                <span>Visual</span>
+                            </div>
+                        </div>
+                        
+                        <div class="tool-stats">
+                            <div class="stat">
+                                <span class="stat-value">∞</span>
+                                <span class="stat-label">Posts</span>
+                            </div>
+                            <div class="stat">
+                                <span class="stat-value">Real</span>
+                                <span class="stat-label">Time</span>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <div class="card-actions">
+                        <a href="https://padlet.com/" target="_blank" class="btn-tool-primary">
+                            <i class="fas fa-external-link-alt"></i>
+                            <span>Criar Padlet</span>
+                        </a>
+                        <button class="btn-tool-secondary" onclick="showToolDetails('padlet')">
+                            <i class="fas fa-info-circle"></i>
+                            <span>Ver Detalhes</span>
+                        </button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Metodologias Ativas Section -->
+    <section id="metodologias" class="activities-modern">
+        <div class="container-modern">
+            <div class="section-header-modern">
+                <div class="section-badge">
+                    <i class="fas fa-lightbulb"></i>
+                    <span>Metodologias Ativas</span>
+                </div>
+                <h2 class="section-title-modern">
+                    Estratégias <span class="highlight">Pedagógicas</span>
+                </h2>
+                <p class="section-subtitle-modern">
+                    Metodologias ativas comprovadas para engajar estudantes e 
+                    promover aprendizagem significativa em qualquer disciplina
+                </p>
+                
+                <div class="methodology-gallery">
+                    <div class="gallery-item">
+                        <img src="https://images.unsplash.com/photo-1427504494785-3a9ca7044f45?w=300&h=200&fit=crop" alt="Sala de aula colaborativa" class="gallery-image">
+                        <div class="gallery-caption">Aprendizagem Colaborativa</div>
+                    </div>
+                    <div class="gallery-item">
+                        <img src="https://images.unsplash.com/photo-1454165804606-c3d57bc86b40?w=300&h=200&fit=crop" alt="Resolução de problemas" class="gallery-image">
+                        <div class="gallery-caption">Aprendizagem Baseada em Problemas</div>
+                    </div>
+                    <div class="gallery-item">
+                        <img src="https://images.unsplash.com/photo-1522202176988-66273c2fd55f?w=300&h=200&fit=crop" alt="Tecnologia educacional" class="gallery-image">
+                        <div class="gallery-caption">Sala de Aula Invertida</div>
+                    </div>
+                    <div class="gallery-item">
+                        <img src="https://images.unsplash.com/photo-1606092195730-5d7b9af1efc5?w=300&h=200&fit=crop" alt="Gamificação" class="gallery-image">
+                        <div class="gallery-caption">Gamificação Educacional</div>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="activities-showcase">
+                <div class="activity-timeline">
+                    <div class="timeline-item">
+                        <div class="timeline-marker">
+                            <i class="fas fa-users"></i>
+                        </div>
+                        <div class="timeline-content">
+                            <h3>Aprendizagem Colaborativa</h3>
+                            <div class="activity-grid">
+                                <div class="activity-card-mini">
+                                    <div class="card-number">01</div>
+                                    <h4>Jigsaw (Quebra-cabeça)</h4>
+                                    <p>Cada aluno especialista em uma parte do conteúdo</p>
+                                    <div class="card-meta">
+                                        <span><i class="fas fa-clock"></i> 50min</span>
+                                        <span><i class="fas fa-users"></i> Grupos</span>
+                                    </div>
+                                </div>
+                                <div class="activity-card-mini">
+                                    <div class="card-number">02</div>
+                                    <h4>Think-Pair-Share</h4>
+                                    <p>Pensar individualmente, discutir em pares, compartilhar</p>
+                                    <div class="card-meta">
+                                        <span><i class="fas fa-clock"></i> 20min</span>
+                                        <span><i class="fas fa-users"></i> Duplas</span>
+                                    </div>
+                                </div>
+                                <div class="activity-card-mini">
+                                    <div class="card-number">03</div>
+                                    <h4>Peer Instruction</h4>
+                                    <p>Estudantes ensinam uns aos outros</p>
+                                    <div class="card-meta">
+                                        <span><i class="fas fa-clock"></i> 30min</span>
+                                        <span><i class="fas fa-users"></i> Pares</span>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <div class="timeline-item">
+                        <div class="timeline-marker">
+                            <i class="fas fa-search"></i>
+                        </div>
+                        <div class="timeline-content">
+                            <h3>Aprendizagem Baseada em Problemas (PBL)</h3>
+                            <div class="activity-grid">
+                                <div class="activity-card-mini">
+                                    <div class="card-number">01</div>
+                                    <h4>Estudo de Caso</h4>
+                                    <p>Análise de situações reais da área</p>
+                                    <div class="card-meta">
+                                        <span><i class="fas fa-clock"></i> 60min</span>
+                                        <span><i class="fas fa-users"></i> Grupos</span>
+                                    </div>
+                                </div>
+                                <div class="activity-card-mini">
+                                    <div class="card-number">02</div>
+                                    <h4>Desafio do Mundo Real</h4>
+                                    <p>Problemas autênticos da comunidade</p>
+                                    <div class="card-meta">
+                                        <span><i class="fas fa-clock"></i> 90min</span>
+                                        <span><i class="fas fa-users"></i> Equipes</span>
+                                    </div>
+                                </div>
+                                <div class="activity-card-mini">
+                                    <div class="card-number">03</div>
+                                    <h4>Investigação Científica</h4>
+                                    <p>Método científico aplicado</p>
+                                    <div class="card-meta">
+                                        <span><i class="fas fa-clock"></i> 120min</span>
+                                        <span><i class="fas fa-users"></i> Grupos</span>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="timeline-item">
+                        <div class="timeline-marker">
+                            <i class="fas fa-exchange-alt"></i>
+                        </div>
+                        <div class="timeline-content">
+                            <h3>Sala de Aula Invertida</h3>
+                            <div class="activity-grid">
+                                <div class="activity-card-mini">
+                                    <div class="card-number">01</div>
+                                    <h4>Vídeo-aulas Prévias</h4>
+                                    <p>Conteúdo teórico estudado em casa</p>
+                                    <div class="card-meta">
+                                        <span><i class="fas fa-clock"></i> Casa</span>
+                                        <span><i class="fas fa-users"></i> Individual</span>
+                                    </div>
+                                </div>
+                                <div class="activity-card-mini">
+                                    <div class="card-number">02</div>
+                                    <h4>Discussão Ativa</h4>
+                                    <p>Esclarecimento de dúvidas em sala</p>
+                                    <div class="card-meta">
+                                        <span><i class="fas fa-clock"></i> 20min</span>
+                                        <span><i class="fas fa-users"></i> Turma</span>
+                                    </div>
+                                </div>
+                                <div class="activity-card-mini">
+                                    <div class="card-number">03</div>
+                                    <h4>Aplicação Prática</h4>
+                                    <p>Exercícios e projetos em sala</p>
+                                    <div class="card-meta">
+                                        <span><i class="fas fa-clock"></i> 30min</span>
+                                        <span><i class="fas fa-users"></i> Grupos</span>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="timeline-item">
+                        <div class="timeline-marker">
+                            <i class="fas fa-gamepad"></i>
+                        </div>
+                        <div class="timeline-content">
+                            <h3>Gamificação Educacional</h3>
+                            <div class="activity-grid">
+                                <div class="activity-card-mini">
+                                    <div class="card-number">01</div>
+                                    <h4>Sistema de Pontos</h4>
+                                    <p>Recompensas por participação e desempenho</p>
+                                    <div class="card-meta">
+                                        <span><i class="fas fa-clock"></i> Contínuo</span>
+                                        <span><i class="fas fa-users"></i> Individual</span>
+                                    </div>
+                                </div>
+                                <div class="activity-card-mini">
+                                    <div class="card-number">02</div>
+                                    <h4>Desafios Semanais</h4>
+                                    <p>Missões temáticas para engajamento</p>
+                                    <div class="card-meta">
+                                        <span><i class="fas fa-clock"></i> Semanal</span>
+                                        <span><i class="fas fa-users"></i> Equipes</span>
+                                    </div>
+                                </div>
+                                <div class="activity-card-mini">
+                                    <div class="card-number">03</div>
+                                    <h4>Ranking Colaborativo</h4>
+                                    <p>Competição saudável entre grupos</p>
+                                    <div class="card-meta">
+                                        <span><i class="fas fa-clock"></i> Mensal</span>
+                                        <span><i class="fas fa-users"></i> Turma</span>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Atividades Práticas Section -->
+    <section id="praticas" class="activities-modern">
+        <div class="container-modern">
+            <div class="section-header-modern">
+                <div class="section-badge">
+                    <i class="fas fa-clipboard-list"></i>
+                    <span>Atividades Práticas</span>
+                </div>
+                <h2 class="section-title-modern">
+                    Passo a Passo <span class="highlight">Detalhado</span>
+                </h2>
+                <p class="section-subtitle-modern">
+                    Guias completos para implementar metodologias ativas em sala de aula, 
+                    com instruções claras e exemplos práticos
+                </p>
+            </div>
+            
+            <div class="activities-showcase">
+                <div class="activity-timeline">
+                    <div class="timeline-item">
+                        <div class="timeline-marker">
+                            <i class="fas fa-puzzle-piece"></i>
+                        </div>
+                        <div class="timeline-content">
+                            <h3>Jigsaw (Quebra-cabeça) - Passo a Passo</h3>
+                            <div class="activity-visual">
+                                <img src="https://images.unsplash.com/photo-1522202176988-66273c2fd55f?w=400&h=200&fit=crop&crop=center" alt="Estudantes trabalhando em grupos" class="activity-image">
+                                <div class="visual-overlay">
+                                    <span class="visual-tag">Colaboração Ativa</span>
+                                </div>
+                            </div>
+                            <div class="activity-grid">
+                                <div class="activity-card-mini">
+                                    <div class="card-number">1</div>
+                                    <h4>Preparação</h4>
+                                    <p><strong>Divida o conteúdo</strong> em 4-5 partes. <strong>Forme grupos base</strong> com mesmo número de integrantes. <strong>Numere os alunos</strong> de 1 a 5 em cada grupo.</p>
+                                    <div class="card-meta">
+                                        <span><i class="fas fa-clock"></i> 5min</span>
+                                        <span><i class="fas fa-users"></i> Professor</span>
+                                    </div>
+                                </div>
+                                <div class="activity-card-mini">
+                                    <div class="card-number">2</div>
+                                    <h4>Grupos Especialistas</h4>
+                                    <p><strong>Reuna todos os número 1</strong> em um grupo, todos os 2 em outro, etc. <strong>Cada grupo estuda</strong> sua parte do conteúdo profundamente.</p>
+                                    <div class="card-meta">
+                                        <span><i class="fas fa-clock"></i> 20min</span>
+                                        <span><i class="fas fa-users"></i> Especialistas</span>
+                                    </div>
+                                </div>
+                                <div class="activity-card-mini">
+                                    <div class="card-number">3</div>
+                                    <h4>Retorno e Ensino</h4>
+                                    <p><strong>Volte aos grupos base.</strong> Cada especialista <strong>ensina sua parte</strong> aos colegas. <strong>Todos fazem perguntas</strong> e esclarecem dúvidas.</p>
+                                    <div class="card-meta">
+                                        <span><i class="fas fa-clock"></i> 20min</span>
+                                        <span><i class="fas fa-users"></i> Grupos Base</span>
+                                    </div>
+                                </div>
+                                <div class="activity-card-mini">
+                                    <div class="card-number">4</div>
+                                    <h4>Avaliação</h4>
+                                    <p><strong>Aplique um quiz</strong> individual sobre todo o conteúdo. <strong>Cada aluno responde</strong> sozinho, mas o sucesso depende do grupo.</p>
+                                    <div class="card-meta">
+                                        <span><i class="fas fa-clock"></i> 10min</span>
+                                        <span><i class="fas fa-users"></i> Individual</span>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <div class="timeline-item">
+                        <div class="timeline-marker">
+                            <i class="fas fa-comments"></i>
+                        </div>
+                        <div class="timeline-content">
+                            <h3>Think-Pair-Share - Passo a Passo</h3>
+                            <div class="activity-visual">
+                                <img src="https://images.unsplash.com/photo-1531482615713-2afd69097998?w=400&h=200&fit=crop&crop=center" alt="Estudantes discutindo em duplas" class="activity-image">
+                                <div class="visual-overlay">
+                                    <span class="visual-tag">Discussão Estruturada</span>
+                                </div>
+                            </div>
+                            <div class="activity-grid">
+                                <div class="activity-card-mini">
+                                    <div class="card-number">1</div>
+                                    <h4>Think (Pensar)</h4>
+                                    <p><strong>Faça uma pergunta</strong> desafiadora. <strong>Dê 2-3 minutos</strong> para cada aluno pensar individualmente. <strong>Oriente:</strong> "Anotem suas ideias".</p>
+                                    <div class="card-meta">
+                                        <span><i class="fas fa-clock"></i> 3min</span>
+                                        <span><i class="fas fa-users"></i> Individual</span>
+                                    </div>
+                                </div>
+                                <div class="activity-card-mini">
+                                    <div class="card-number">2</div>
+                                    <h4>Pair (Formar Pares)</h4>
+                                    <p><strong>Forme duplas</strong> aleatórias ou próximas. <strong>Cada um compartilha</strong> sua resposta com o parceiro. <strong>Discutem e refinam</strong> as ideias juntos.</p>
+                                    <div class="card-meta">
+                                        <span><i class="fas fa-clock"></i> 5min</span>
+                                        <span><i class="fas fa-users"></i> Duplas</span>
+                                    </div>
+                                </div>
+                                <div class="activity-card-mini">
+                                    <div class="card-number">3</div>
+                                    <h4>Share (Compartilhar)</h4>
+                                    <p><strong>Cada dupla apresenta</strong> sua melhor resposta para a turma. <strong>Professor anota</strong> no quadro. <strong>Promova discussão</strong> entre as ideias.</p>
+                                    <div class="card-meta">
+                                        <span><i class="fas fa-clock"></i> 10min</span>
+                                        <span><i class="fas fa-users"></i> Turma</span>
+                                    </div>
+                                </div>
+                                <div class="activity-card-mini">
+                                    <div class="card-number">4</div>
+                                    <h4>Síntese</h4>
+                                    <p><strong>Conecte as respostas</strong> ao conteúdo da aula. <strong>Destaque pontos-chave</strong> que surgiram. <strong>Esclareça conceitos</strong> importantes.</p>
+                                    <div class="card-meta">
+                                        <span><i class="fas fa-clock"></i> 5min</span>
+                                        <span><i class="fas fa-users"></i> Professor</span>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="timeline-item">
+                        <div class="timeline-marker">
+                            <i class="fas fa-search"></i>
+                        </div>
+                        <div class="timeline-content">
+                            <h3>Estudo de Caso - Passo a Passo</h3>
+                            <div class="activity-visual">
+                                <img src="https://images.unsplash.com/photo-1552664730-d307ca884978?w=400&h=200&fit=crop&crop=center" alt="Análise de documentos em grupo" class="activity-image">
+                                <div class="visual-overlay">
+                                    <span class="visual-tag">Aprendizagem Baseada em Problemas</span>
+                                </div>
+                            </div>
+                            <div class="activity-grid">
+                                <div class="activity-card-mini">
+                                    <div class="card-number">1</div>
+                                    <h4>Apresentação do Caso</h4>
+                                    <p><strong>Escolha um caso real</strong> da área de estudo. <strong>Apresente o contexto</strong> e a situação-problema. <strong>Distribua materiais</strong> de apoio.</p>
+                                    <div class="card-meta">
+                                        <span><i class="fas fa-clock"></i> 10min</span>
+                                        <span><i class="fas fa-users"></i> Professor</span>
+                                    </div>
+                                </div>
+                                <div class="activity-card-mini">
+                                    <div class="card-number">2</div>
+                                    <h4>Análise em Grupos</h4>
+                                    <p><strong>Forme grupos de 4-5 alunos.</strong> <strong>Cada grupo analisa</strong> o caso usando conceitos da disciplina. <strong>Identifiquem problemas</strong> e causas.</p>
+                                    <div class="card-meta">
+                                        <span><i class="fas fa-clock"></i> 25min</span>
+                                        <span><i class="fas fa-users"></i> Grupos</span>
+                                    </div>
+                                </div>
+                                <div class="activity-card-mini">
+                                    <div class="card-number">3</div>
+                                    <h4>Proposta de Solução</h4>
+                                    <p><strong>Grupos desenvolvem soluções</strong> viáveis e criativas. <strong>Justifiquem com teoria</strong> estudada. <strong>Preparem apresentação</strong> de 3 minutos.</p>
+                                    <div class="card-meta">
+                                        <span><i class="fas fa-clock"></i> 20min</span>
+                                        <span><i class="fas fa-users"></i> Grupos</span>
+                                    </div>
+                                </div>
+                                <div class="activity-card-mini">
+                                    <div class="card-number">4</div>
+                                    <h4>Apresentação e Debate</h4>
+                                    <p><strong>Cada grupo apresenta</strong> sua solução. <strong>Outros grupos fazem perguntas.</strong> <strong>Professor facilita</strong> o debate e conecta à teoria.</p>
+                                    <div class="card-meta">
+                                        <span><i class="fas fa-clock"></i> 15min</span>
+                                        <span><i class="fas fa-users"></i> Turma</span>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="timeline-item">
+                        <div class="timeline-marker">
+                            <i class="fas fa-exchange-alt"></i>
+                        </div>
+                        <div class="timeline-content">
+                            <h3>Sala de Aula Invertida - Passo a Passo</h3>
+                            <div class="activity-visual">
+                                <img src="https://images.unsplash.com/photo-1588072432836-e10032774350?w=400&h=200&fit=crop&crop=center" alt="Estudante assistindo vídeo-aula" class="activity-image">
+                                <div class="visual-overlay">
+                                    <span class="visual-tag">Aprendizagem Híbrida</span>
+                                </div>
+                            </div>
+                            <div class="activity-grid">
+                                <div class="activity-card-mini">
+                                    <div class="card-number">1</div>
+                                    <h4>Preparação Prévia</h4>
+                                    <p><strong>Grave vídeo de 10-15min</strong> ou selecione conteúdo. <strong>Crie questões-guia</strong> para orientar o estudo. <strong>Disponibilize com antecedência.</strong></p>
+                                    <div class="card-meta">
+                                        <span><i class="fas fa-clock"></i> Casa</span>
+                                        <span><i class="fas fa-users"></i> Professor</span>
+                                    </div>
+                                </div>
+                                <div class="activity-card-mini">
+                                    <div class="card-number">2</div>
+                                    <h4>Verificação Rápida</h4>
+                                    <p><strong>Inicie a aula</strong> com quiz rápido de 5 questões. <strong>Use Kahoot ou papel.</strong> <strong>Identifique dúvidas</strong> principais da turma.</p>
+                                    <div class="card-meta">
+                                        <span><i class="fas fa-clock"></i> 8min</span>
+                                        <span><i class="fas fa-users"></i> Individual</span>
+                                    </div>
+                                </div>
+                                <div class="activity-card-mini">
+                                    <div class="card-number">3</div>
+                                    <h4>Esclarecimento Ativo</h4>
+                                    <p><strong>Aborde as dúvidas</strong> identificadas no quiz. <strong>Use exemplos práticos</strong> e analogias. <strong>Permita perguntas</strong> e discussão.</p>
+                                    <div class="card-meta">
+                                        <span><i class="fas fa-clock"></i> 12min</span>
+                                        <span><i class="fas fa-users"></i> Turma</span>
+                                    </div>
+                                </div>
+                                <div class="activity-card-mini">
+                                    <div class="card-number">4</div>
+                                    <h4>Aplicação Prática</h4>
+                                    <p><strong>Proponha exercícios</strong> ou projeto prático. <strong>Alunos trabalham em grupos.</strong> <strong>Circule e oriente</strong> individualmente.</p>
+                                    <div class="card-meta">
+                                        <span><i class="fas fa-clock"></i> 25min</span>
+                                        <span><i class="fas fa-users"></i> Grupos</span>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="timeline-item">
+                        <div class="timeline-marker">
+                            <i class="fas fa-trophy"></i>
+                        </div>
+                        <div class="timeline-content">
+                            <h3>Gamificação em Sala - Passo a Passo</h3>
+                            <div class="activity-visual">
+                                <img src="https://images.unsplash.com/photo-1606092195730-5d7b9af1efc5?w=400&h=200&fit=crop&crop=center" alt="Estudantes engajados com tecnologia" class="activity-image">
+                                <div class="visual-overlay">
+                                    <span class="visual-tag">Engajamento Lúdico</span>
+                                </div>
+                            </div>
+                            <div class="activity-grid">
+                                <div class="activity-card-mini">
+                                    <div class="card-number">1</div>
+                                    <h4>Sistema de Pontos</h4>
+                                    <p><strong>Crie tabela de pontuação:</strong> Participação (5pts), Exercícios (10pts), Ajuda colegas (15pts). <strong>Use placar visível</strong> na sala.</p>
+                                    <div class="card-meta">
+                                        <span><i class="fas fa-clock"></i> Setup</span>
+                                        <span><i class="fas fa-users"></i> Professor</span>
+                                    </div>
+                                </div>
+                                <div class="activity-card-mini">
+                                    <div class="card-number">2</div>
+                                    <h4>Missões Diárias</h4>
+                                    <p><strong>Crie desafios diários:</strong> "Faça 3 perguntas inteligentes", "Ajude 2 colegas". <strong>Anuncie no início</strong> da aula. <strong>Recompense cumprimento.</strong></p>
+                                    <div class="card-meta">
+                                        <span><i class="fas fa-clock"></i> 2min</span>
+                                        <span><i class="fas fa-users"></i> Turma</span>
+                                    </div>
+                                </div>
+                                <div class="activity-card-mini">
+                                    <div class="card-number">3</div>
+                                    <h4>Badges e Conquistas</h4>
+                                    <p><strong>Crie badges especiais:</strong> "Mentor" (ajuda colegas), "Explorador" (faz perguntas), "Inovador" (soluções criativas). <strong>Entregue certificados.</strong></p>
+                                    <div class="card-meta">
+                                        <span><i class="fas fa-clock"></i> Semanal</span>
+                                        <span><i class="fas fa-users"></i> Individual</span>
+                                    </div>
+                                </div>
+                                <div class="activity-card-mini">
+                                    <div class="card-number">4</div>
+                                    <h4>Ranking Colaborativo</h4>
+                                    <p><strong>Forme "guildas" (grupos).</strong> <strong>Pontos individuais</strong> somam para o grupo. <strong>Recompense colaboração</strong> mais que competição.</p>
+                                    <div class="card-meta">
+                                        <span><i class="fas fa-clock"></i> Mensal</span>
+                                        <span><i class="fas fa-users"></i> Grupos</span>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="timeline-item">
+                        <div class="timeline-marker">
+                            <i class="fas fa-lightbulb"></i>
+                        </div>
+                        <div class="timeline-content">
+                            <h3>Brainstorming Estruturado - Passo a Passo</h3>
+                            <div class="activity-visual">
+                                <img src="https://images.unsplash.com/photo-1559136555-9303baea8ebd?w=400&h=200&fit=crop&crop=center" alt="Post-its e ideias no quadro" class="activity-image">
+                                <div class="visual-overlay">
+                                    <span class="visual-tag">Criatividade Colaborativa</span>
+                                </div>
+                            </div>
+                            <div class="activity-grid">
+                                <div class="activity-card-mini">
+                                    <div class="card-number">1</div>
+                                    <h4>Definição do Problema</h4>
+                                    <p><strong>Apresente o desafio</strong> de forma clara e específica. <strong>Escreva no quadro</strong> a pergunta principal. <strong>Certifique-se</strong> que todos entenderam.</p>
+                                    <div class="card-meta">
+                                        <span><i class="fas fa-clock"></i> 5min</span>
+                                        <span><i class="fas fa-users"></i> Professor</span>
+                                    </div>
+                                </div>
+                                <div class="activity-card-mini">
+                                    <div class="card-number">2</div>
+                                    <h4>Geração de Ideias</h4>
+                                    <p><strong>Regras:</strong> Sem críticas, quantidade > qualidade, ideias malucas são bem-vindas. <strong>Cada aluno escreve</strong> em post-its. <strong>Tempo limitado.</strong></p>
+                                    <div class="card-meta">
+                                        <span><i class="fas fa-clock"></i> 15min</span>
+                                        <span><i class="fas fa-users"></i> Individual</span>
+                                    </div>
+                                </div>
+                                <div class="activity-card-mini">
+                                    <div class="card-number">3</div>
+                                    <h4>Agrupamento</h4>
+                                    <p><strong>Cole todos os post-its</strong> no quadro. <strong>Agrupe ideias similares</strong> com a turma. <strong>Dê títulos</strong> para cada grupo de ideias.</p>
+                                    <div class="card-meta">
+                                        <span><i class="fas fa-clock"></i> 10min</span>
+                                        <span><i class="fas fa-users"></i> Turma</span>
+                                    </div>
+                                </div>
+                                <div class="activity-card-mini">
+                                    <div class="card-number">4</div>
+                                    <h4>Seleção e Desenvolvimento</h4>
+                                    <p><strong>Vote nas 3 melhores ideias.</strong> <strong>Forme grupos</strong> para desenvolver cada uma. <strong>Crie plano de ação</strong> para implementar.</p>
+                                    <div class="card-meta">
+                                        <span><i class="fas fa-clock"></i> 15min</span>
+                                        <span><i class="fas fa-users"></i> Grupos</span>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Seção Visual de Resultados -->
+    <section class="visual-results">
+        <div class="container-modern">
+            <div class="section-header-modern">
+                <div class="section-badge">
+                    <i class="fas fa-chart-pie"></i>
+                    <span>Resultados Visuais</span>
+                </div>
+                <h2 class="section-title-modern">
+                    Impacto <span class="highlight">Comprovado</span>
+                </h2>
+            </div>
+            
+            <div class="results-infographic">
+                <div class="infographic-item">
+                    <div class="infographic-visual">
+                        <div class="circular-progress" data-percentage="95">
+                            <div class="progress-circle">
+                                <span class="progress-text">95%</span>
+                            </div>
+                        </div>
+                    </div>
+                    <h4>Engajamento Estudantil</h4>
+                    <p>Aumento na participação ativa dos estudantes</p>
+                </div>
+                
+                <div class="infographic-item">
+                    <div class="infographic-visual">
+                        <div class="bar-chart">
+                            <div class="bar" style="height: 80%" data-label="Antes"></div>
+                            <div class="bar" style="height: 100%" data-label="Depois"></div>
+                        </div>
+                    </div>
+                    <h4>Compreensão do Conteúdo</h4>
+                    <p>Melhoria significativa na assimilação</p>
+                </div>
+                
+                <div class="infographic-item">
+                    <div class="infographic-visual">
+                        <div class="icon-stat">
+                            <i class="fas fa-users"></i>
+                            <span class="stat-number">500+</span>
+                        </div>
+                    </div>
+                    <h4>Estudantes Impactados</h4>
+                    <p>Alcance direto em múltiplas escolas</p>
+                </div>
+                
+                <div class="infographic-item">
+                    <div class="infographic-visual">
+                        <div class="timeline-visual">
+                            <div class="timeline-dot active"></div>
+                            <div class="timeline-dot active"></div>
+                            <div class="timeline-dot active"></div>
+                            <div class="timeline-dot"></div>
+                        </div>
+                    </div>
+                    <h4>Implementação Progressiva</h4>
+                    <p>Metodologia aplicada em fases estruturadas</p>
+                </div>
+            </div>
+            
+            <div class="methodology-comparison">
+                <div class="comparison-item traditional">
+                    <img src="https://images.unsplash.com/photo-1497486751825-1233686d5d80?w=400&h=250&fit=crop" alt="Ensino tradicional" class="comparison-image">
+                    <div class="comparison-overlay">
+                        <h4>Ensino Tradicional</h4>
+                        <ul>
+                            <li>Aulas expositivas</li>
+                            <li>Participação passiva</li>
+                            <li>Avaliação pontual</li>
+                        </ul>
+                    </div>
+                </div>
+                
+                <div class="comparison-arrow">
+                    <i class="fas fa-arrow-right"></i>
+                    <span>Transformação</span>
+                </div>
+                
+                <div class="comparison-item modern">
+                    <img src="https://images.unsplash.com/photo-1522202176988-66273c2fd55f?w=400&h=250&fit=crop" alt="Metodologias ativas" class="comparison-image">
+                    <div class="comparison-overlay">
+                        <h4>Metodologias Ativas</h4>
+                        <ul>
+                            <li>Aprendizagem colaborativa</li>
+                            <li>Participação ativa</li>
+                            <li>Avaliação contínua</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Computação Desplugada Section -->
+    <section id="desplugada" class="unplugged-modern">
+        <div class="container-modern">
+            <div class="section-header-modern">
+                <div class="section-badge">
+                    <i class="fas fa-puzzle-piece"></i>
+                    <span>Computação Desplugada</span>
+                </div>
+                <h2 class="section-title-modern">
+                    Aprendendo <span class="highlight">Sem Telas</span>
+                </h2>
+                <p class="section-subtitle-modern">
+                    Atividades práticas que ensinam conceitos computacionais através de 
+                    jogos, brincadeiras e materiais concretos, depois aplicados digitalmente
+                </p>
+            </div>
+            
+            <div class="unplugged-showcase">
+                <div class="unplugged-gallery">
+                    <div class="unplugged-image-card">
+                        <img src="https://images.unsplash.com/photo-1606092195730-5d7b9af1efc5?w=300&h=200&fit=crop" alt="Crianças brincando com cartas" class="unplugged-img">
+                        <div class="image-caption">Algoritmos com Cartas</div>
+                    </div>
+                    <div class="unplugged-image-card">
+                        <img src="https://images.unsplash.com/photo-1503676260728-1c00da094a0b?w=300&h=200&fit=crop" alt="Crianças formando rede humana" class="unplugged-img">
+                        <div class="image-caption">Redes Humanas</div>
+                    </div>
+                    <div class="unplugged-image-card">
+                        <img src="https://images.unsplash.com/photo-1571019613454-1cb2f99b2d8b?w=300&h=200&fit=crop" alt="Crianças em movimento" class="unplugged-img">
+                        <div class="image-caption">Programação Corporal</div>
+                    </div>
+                    <div class="unplugged-image-card">
+                        <img src="https://images.unsplash.com/photo-1503454537195-1dcabb73ffb9?w=300&h=200&fit=crop" alt="Crianças procurando objetos" class="unplugged-img">
+                        <div class="image-caption">Caça ao Tesouro</div>
+                    </div>
+                </div>
+                
+                <div class="unplugged-flow">
+                    <div class="flow-step">
+                        <div class="step-icon physical">
+                            <i class="fas fa-hands"></i>
+                        </div>
+                        <h3>Atividade Física</h3>
+                        <p>Conceitos aprendidos através de jogos, cartas, movimentos corporais e materiais concretos</p>
+                    </div>
+                    <div class="flow-arrow">
+                        <i class="fas fa-arrow-right"></i>
+                    </div>
+                    <div class="flow-step">
+                        <div class="step-icon digital">
+                            <i class="fas fa-laptop"></i>
+                        </div>
+                        <h3>Aplicação Digital</h3>
+                        <p>Mesmos conceitos aplicados nas ferramentas digitais para consolidar o aprendizado</p>
+                    </div>
+                </div>
+                
+                <div class="unplugged-examples">
+                    <div class="example-card algorithms">
+                        <div class="example-visual">
+                            <img src="https://images.unsplash.com/photo-1541963463532-d68292c34d19?w=400&h=200&fit=crop" alt="Cartas de baralho organizadas" class="example-bg-image">
+                            <div class="example-overlay">
+                                <div class="example-icon">
+                                    <i class="fas fa-sort-amount-up"></i>
+                                </div>
+                                <h4>Algoritmos com Cartas</h4>
+                            </div>
+                        </div>
+                        <div class="example-content">
+                            <div class="physical-activity">
+                                <h5><i class="fas fa-hand-paper"></i> Atividade Física</h5>
+                                <p>Estudantes organizam cartas seguindo sequências lógicas, aprendendo conceitos de algoritmos e ordenação</p>
+                            </div>
+                            <div class="digital-connection">
+                                <h5><i class="fas fa-gamepad"></i> Conexão Digital</h5>
+                                <p>Criam quizzes no <strong>Kahoot!</strong> sobre sequências lógicas, aplicando o conhecimento adquirido</p>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <div class="example-card networks">
+                        <div class="example-visual">
+                            <img src="https://images.unsplash.com/photo-1559027615-cd4628902d4a?w=400&h=200&fit=crop" alt="Pessoas conectadas com barbante" class="example-bg-image">
+                            <div class="example-overlay">
+                                <div class="example-icon">
+                                    <i class="fas fa-project-diagram"></i>
+                                </div>
+                                <h4>Redes Humanas</h4>
+                            </div>
+                        </div>
+                        <div class="example-content">
+                            <div class="physical-activity">
+                                <h5><i class="fas fa-users"></i> Atividade Física</h5>
+                                <p>Formam redes físicas com barbante, simulando conexões de internet e fluxo de dados</p>
+                            </div>
+                            <div class="digital-connection">
+                                <h5><i class="fas fa-sticky-note"></i> Conexão Digital</h5>
+                                <p>Criam mapas mentais colaborativos no <strong>Padlet</strong> para visualizar as conexões aprendidas</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="methodology-highlight">
+                    <div class="highlight-icon">
+                        <i class="fas fa-sync-alt"></i>
+                    </div>
+                    <div class="highlight-content">
+                        <h3>Metodologia Híbrida Inovadora</h3>
+                        <p>Nossa abordagem única combina o <strong>aprendizado tátil e cinestésico</strong> da computação desplugada com a <strong>aplicação prática digital</strong>, criando uma ponte natural entre o concreto e o abstrato.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Pilares Section -->
+    <section id="pilares" class="pillars-modern">
+        <div class="container-modern">
+            <div class="section-header-modern">
+                <div class="section-badge">
+                    <i class="fas fa-columns"></i>
+                    <span>Fundamentos</span>
+                </div>
+                <h2 class="section-title-modern">
+                    Pilares da <span class="highlight">Inovação</span>
+                </h2>
+                <p class="section-subtitle-modern">
+                    Princípios fundamentais que garantem o sucesso e a 
+                    sustentabilidade da transformação educacional digital
+                </p>
+            </div>
+            
+            <div class="pillars-showcase">
+                <div class="pillar-card-modern accessibility">
+                    <div class="pillar-icon-modern">
+                        <i class="fas fa-universal-access"></i>
+                        <div class="icon-glow"></div>
+                    </div>
+                    <h3>Acessibilidade Universal</h3>
+                    <p>Implementação dos princípios do Desenho Universal para a Aprendizagem (DUA), garantindo que todas as tecnologias sejam verdadeiramente inclusivas e acessíveis.</p>
+                    <div class="pillar-features">
+                        <span class="feature-pill">DUA</span>
+                        <span class="feature-pill">UX Inclusivo</span>
+                        <span class="feature-pill">Acessibilidade</span>
+                    </div>
+                    <div class="pillar-progress">
+                        <div class="progress-bar" data-progress="100"></div>
+                    </div>
+                </div>
+                
+                <div class="pillar-card-modern adaptation">
+                    <div class="pillar-icon-modern">
+                        <i class="fas fa-wifi"></i>
+                        <div class="icon-glow"></div>
+                    </div>
+                    <h3>Adaptação Contextual</h3>
+                    <p>Soluções flexíveis para diferentes realidades, incluindo cenários de baixa conectividade e estratégias de computação desplugada para garantir continuidade educacional.</p>
+                    <div class="pillar-features">
+                        <span class="feature-pill">Offline</span>
+                        <span class="feature-pill">Flexível</span>
+                        <span class="feature-pill">Contextual</span>
+                    </div>
+                    <div class="pillar-progress">
+                        <div class="progress-bar" data-progress="95"></div>
+                    </div>
+                </div>
+                
+                <div class="pillar-card-modern improvement">
+                    <div class="pillar-icon-modern">
+                        <i class="fas fa-sync-alt"></i>
+                        <div class="icon-glow"></div>
+                    </div>
+                    <h3>Melhoria Contínua</h3>
+                    <p>Ciclo sistemático de Planejar, Aplicar, Analisar e Refinar, baseado em dados e evidências, com foco na evolução constante das práticas pedagógicas.</p>
+                    <div class="pillar-features">
+                        <span class="feature-pill">PDCA</span>
+                        <span class="feature-pill">Data-Driven</span>
+                        <span class="feature-pill">Evolutivo</span>
+                    </div>
+                    <div class="pillar-progress">
+                        <div class="progress-bar" data-progress="98"></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Acessibilidade Section -->
+    <section id="acessibilidade" class="accessibility-modern">
+        <div class="container-modern">
+            <div class="section-header-modern">
+                <div class="section-badge">
+                    <i class="fas fa-universal-access"></i>
+                    <span>Acessibilidade Universal</span>
+                </div>
+                <h2 class="section-title-modern">
+                    Educação <span class="highlight">Inclusiva</span> para Todos
+                </h2>
+                <p class="section-subtitle-modern">
+                    Implementamos o Desenho Universal para a Aprendizagem (DUA) garantindo que 
+                    estudantes com diferentes necessidades tenham acesso pleno à educação de qualidade
+                </p>
+            </div>
+            
+            <div class="accessibility-showcase">
+                <div class="accessibility-card cognitive">
+                    <div class="card-icon">
+                        <i class="fas fa-brain"></i>
+                    </div>
+                    <h3>Deficiência Cognitiva</h3>
+                    <p class="card-description">
+                        Adaptações específicas para estudantes com dificuldades de aprendizagem, 
+                        autismo, síndrome de Down e outras condições cognitivas.
+                    </p>
+                    <div class="accessibility-examples">
+                        <div class="example-item">
+                            <div class="example-tool">
+                                <i class="fas fa-gamepad"></i>
+                                <span>Kahoot!</span>
+                            </div>
+                            <div class="example-adaptation">
+                                <strong>Adaptação:</strong> Tempo estendido para respostas, 
+                                questões com imagens visuais, linguagem simplificada
+                            </div>
+                        </div>
+                        <div class="example-item">
+                            <div class="example-tool">
+                                <i class="fas fa-palette"></i>
+                                <span>Canva</span>
+                            </div>
+                            <div class="example-adaptation">
+                                <strong>Adaptação:</strong> Templates com pictogramas, 
+                                cores contrastantes, instruções passo a passo visuais
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="accessibility-card motor">
+                    <div class="card-icon">
+                        <i class="fas fa-wheelchair"></i>
+                    </div>
+                    <h3>Deficiência Motora</h3>
+                    <p class="card-description">
+                        Soluções para estudantes com limitações de mobilidade, 
+                        paralisia cerebral, lesões medulares e outras condições motoras.
+                    </p>
+                    <div class="accessibility-examples">
+                        <div class="example-item">
+                            <div class="example-tool">
+                                <i class="fab fa-google"></i>
+                                <span>Classroom</span>
+                            </div>
+                            <div class="example-adaptation">
+                                <strong>Adaptação:</strong> Comandos por voz, navegação por teclado, 
+                                interface adaptável para tecnologias assistivas
+                            </div>
+                        </div>
+                        <div class="example-item">
+                            <div class="example-tool">
+                                <i class="fas fa-sticky-note"></i>
+                                <span>Padlet</span>
+                            </div>
+                            <div class="example-adaptation">
+                                <strong>Adaptação:</strong> Áreas de clique ampliadas, 
+                                arrastar e soltar alternativo, controle por switch
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="accessibility-card mental">
+                    <div class="card-icon">
+                        <i class="fas fa-heart"></i>
+                    </div>
+                    <h3>Saúde Mental</h3>
+                    <p class="card-description">
+                        Suporte para estudantes com ansiedade, depressão, TDAH 
+                        e outras condições que afetam o bem-estar emocional.
+                    </p>
+                    <div class="accessibility-examples">
+                        <div class="example-item">
+                            <div class="example-tool">
+                                <i class="fas fa-gamepad"></i>
+                                <span>Kahoot!</span>
+                            </div>
+                            <div class="example-adaptation">
+                                <strong>Adaptação:</strong> Modo privado sem ranking público, 
+                                feedback positivo, pausas para autorregulação
+                            </div>
+                        </div>
+                        <div class="example-item">
+                            <div class="example-tool">
+                                <i class="fab fa-google"></i>
+                                <span>Classroom</span>
+                            </div>
+                            <div class="example-adaptation">
+                                <strong>Adaptação:</strong> Prazos flexíveis, 
+                                comunicação privada com professor, ambiente seguro
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="dua-principles">
+                <h3>Princípios do Desenho Universal para a Aprendizagem (DUA)</h3>
+                <div class="principles-grid">
+                    <div class="principle-card">
+                        <div class="principle-icon">
+                            <i class="fas fa-eye"></i>
+                        </div>
+                        <h4>Múltiplas Formas de Representação</h4>
+                        <p>Conteúdo apresentado em diferentes formatos: visual, auditivo, tátil</p>
+                        <ul>
+                            <li>Vídeos com legendas e libras</li>
+                            <li>Textos com áudio</li>
+                            <li>Gráficos e infográficos</li>
+                            <li>Materiais em Braille</li>
+                        </ul>
+                    </div>
+                    <div class="principle-card">
+                        <div class="principle-icon">
+                            <i class="fas fa-hand-paper"></i>
+                        </div>
+                        <h4>Múltiplas Formas de Engajamento</h4>
+                        <p>Diferentes estratégias para motivar e envolver todos os estudantes</p>
+                        <ul>
+                            <li>Gamificação adaptativa</li>
+                            <li>Escolha de temas de interesse</li>
+                            <li>Colaboração em grupos diversos</li>
+                            <li>Feedback personalizado</li>
+                        </ul>
+                    </div>
+                    <div class="principle-card">
+                        <div class="principle-icon">
+                            <i class="fas fa-tools"></i>
+                        </div>
+                        <h4>Múltiplas Formas de Ação</h4>
+                        <p>Diversas maneiras de demonstrar conhecimento e habilidades</p>
+                        <ul>
+                            <li>Apresentações orais ou escritas</li>
+                            <li>Projetos criativos</li>
+                            <li>Avaliações adaptativas</li>
+                            <li>Portfólios digitais</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- BNCC Section -->
+    <section id="bncc" class="bncc-modern">
+        <div class="container-modern">
+            <div class="section-header-modern">
+                <div class="section-badge">
+                    <i class="fas fa-book-open"></i>
+                    <span>Base Nacional Comum Curricular</span>
+                </div>
+                <h2 class="section-title-modern">
+                    Habilidades da <span class="highlight">BNCC</span>
+                </h2>
+                <p class="section-subtitle-modern">
+                    Competências e habilidades desenvolvidas através das metodologias ativas 
+                    e tecnologias educacionais, alinhadas à BNCC
+                </p>
+            </div>
+            
+            <div class="bncc-areas">
+                <div class="bncc-area">
+                    <div class="area-header">
+                        <div class="area-icon">
+                            <i class="fas fa-laptop-code"></i>
+                        </div>
+                        <h3>Cultura Digital</h3>
+                    </div>
+                    <div class="bncc-competencies">
+                        <div class="competency-card">
+                            <div class="competency-number">5</div>
+                            <div class="competency-content">
+                                <h4>Competência Geral 5</h4>
+                                <p>Compreender, utilizar e criar tecnologias digitais de informação e comunicação de forma crítica, significativa, reflexiva e ética.</p>
+                                <div class="habilidades">
+                                    <span class="habilidade">Uso crítico de tecnologias</span>
+                                    <span class="habilidade">Criação de conteúdo digital</span>
+                                    <span class="habilidade">Comunicação digital</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="bncc-area">
+                    <div class="area-header">
+                        <div class="area-icon">
+                            <i class="fas fa-users"></i>
+                        </div>
+                        <h3>Trabalho e Projeto de Vida</h3>
+                    </div>
+                    <div class="bncc-competencies">
+                        <div class="competency-card">
+                            <div class="competency-number">6</div>
+                            <div class="competency-content">
+                                <h4>Competência Geral 6</h4>
+                                <p>Valorizar a diversidade de saberes e vivências culturais e apropriar-se de conhecimentos e experiências.</p>
+                                <div class="habilidades">
+                                    <span class="habilidade">Colaboração</span>
+                                    <span class="habilidade">Respeito à diversidade</span>
+                                    <span class="habilidade">Aprendizagem contínua</span>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="competency-card">
+                            <div class="competency-number">10</div>
+                            <div class="competency-content">
+                                <h4>Competência Geral 10</h4>
+                                <p>Agir pessoal e coletivamente com autonomia, responsabilidade, flexibilidade, resiliência e determinação.</p>
+                                <div class="habilidades">
+                                    <span class="habilidade">Autonomia</span>
+                                    <span class="habilidade">Responsabilidade</span>
+                                    <span class="habilidade">Resiliência</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="bncc-area">
+                    <div class="area-header">
+                        <div class="area-icon">
+                            <i class="fas fa-lightbulb"></i>
+                        </div>
+                        <h3>Pensamento Científico</h3>
+                    </div>
+                    <div class="bncc-competencies">
+                        <div class="competency-card">
+                            <div class="competency-number">2</div>
+                            <div class="competency-content">
+                                <h4>Competência Geral 2</h4>
+                                <p>Exercitar a curiosidade intelectual e recorrer à abordagem própria das ciências, incluindo a investigação, a reflexão, a análise crítica.</p>
+                                <div class="habilidades">
+                                    <span class="habilidade">Investigação</span>
+                                    <span class="habilidade">Análise crítica</span>
+                                    <span class="habilidade">Resolução de problemas</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="bncc-specific">
+                <h3>Habilidades Específicas Desenvolvidas</h3>
+                <div class="specific-skills">
+                    <div class="skill-category">
+                        <h4><i class="fas fa-gamepad"></i> Gamificação (Kahoot!)</h4>
+                        <ul>
+                            <li><strong>EF15LP09:</strong> Expressar-se em situações de intercâmbio oral com clareza</li>
+                            <li><strong>EF69LP32:</strong> Selecionar informações e dados relevantes</li>
+                            <li><strong>EF89EF16:</strong> Experimentar diferentes formas de avaliação</li>
+                        </ul>
+                    </div>
+                    
+                    <div class="skill-category">
+                        <h4><i class="fas fa-palette"></i> Criação Visual (Canva)</h4>
+                        <ul>
+                            <li><strong>EF15AR02:</strong> Explorar e reconhecer elementos constitutivos das artes visuais</li>
+                            <li><strong>EF69AR04:</strong> Analisar os elementos constitutivos das artes visuais</li>
+                            <li><strong>EF69LP36:</strong> Produzir textos multissemióticos</li>
+                        </ul>
+                    </div>
+                    
+                    <div class="skill-category">
+                        <h4><i class="fas fa-users"></i> Colaboração (Metodologias Ativas)</h4>
+                        <ul>
+                            <li><strong>EF15LP13:</strong> Identificar finalidades da interação oral</li>
+                            <li><strong>EF69LP24:</strong> Discutir casos, reais ou simulados</li>
+                            <li><strong>EF89EF03:</strong> Formular e utilizar estratégias para solucionar desafios</li>
+                        </ul>
+                    </div>
+                    
+                    <div class="skill-category">
+                        <h4><i class="fas fa-puzzle-piece"></i> Pensamento Computacional</h4>
+                        <ul>
+                            <li><strong>EF05MA24:</strong> Interpretar dados estatísticos apresentados em textos</li>
+                            <li><strong>EF07MA36:</strong> Planejar e realizar pesquisa envolvendo dados</li>
+                            <li><strong>EF89EF21:</strong> Identificar as potencialidades do próprio corpo</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+
+            <div class="bncc-methodology">
+                <div class="methodology-connection">
+                    <div class="connection-item">
+                        <div class="connection-icon">
+                            <i class="fas fa-brain"></i>
+                        </div>
+                        <h4>Aprendizagem Significativa</h4>
+                        <p>Metodologias ativas promovem conexões entre conhecimentos prévios e novos conteúdos</p>
+                    </div>
+                    
+                    <div class="connection-item">
+                        <div class="connection-icon">
+                            <i class="fas fa-hands-helping"></i>
+                        </div>
+                        <h4>Colaboração e Empatia</h4>
+                        <p>Trabalho em equipe desenvolve habilidades socioemocionais essenciais</p>
+                    </div>
+                    
+                    <div class="connection-item">
+                        <div class="connection-icon">
+                            <i class="fas fa-cog"></i>
+                        </div>
+                        <h4>Pensamento Crítico</h4>
+                        <p>Análise, síntese e avaliação de informações de forma reflexiva</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Matérias Section - Estilo ODS -->
+    <section id="materias" class="ods-modern">
+        <div class="container-modern">
+            <div class="section-header-modern">
+                <div class="section-badge">
+                    <i class="fas fa-graduation-cap"></i>
+                    <span>Aplicação por Disciplinas</span>
+                </div>
+                <h2 class="section-title-modern">
+                    Metodologias por <span class="highlight">Matéria</span>
+                </h2>
+                <p class="section-subtitle-modern">
+                    Nosso projeto aplica metodologias ativas de forma prática e eficiente 
+                    em diferentes disciplinas, promovendo aprendizagem significativa
+                </p>
+            </div>
+            
+            <div class="ods-showcase">
+                <div class="ods-card" data-subject="portugues">
+                    <div class="ods-image">
+                        <div class="subject-icon-large">
+                            <i class="fas fa-book"></i>
+                        </div>
+                    </div>
+                    <div class="ods-content">
+                        <h3>Língua Portuguesa</h3>
+                        <p>Desenvolver competências de leitura, escrita e comunicação através de metodologias ativas e tecnologias educacionais.</p>
+                        <div class="ods-impact">
+                            <div class="impact-item">
+                                <i class="fas fa-check-circle"></i>
+                                <span>Kahoot! para gramática interativa</span>
+                            </div>
+                            <div class="impact-item">
+                                <i class="fas fa-check-circle"></i>
+                                <span>Canva para criação de HQs e infográficos</span>
+                            </div>
+                            <div class="impact-item">
+                                <i class="fas fa-check-circle"></i>
+                                <span>Padlet para murais colaborativos de poesia</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="ods-card" data-subject="matematica">
+                    <div class="ods-image">
+                        <div class="subject-icon-large">
+                            <i class="fas fa-calculator"></i>
+                        </div>
+                    </div>
+                    <div class="ods-content">
+                        <h3>Matemática</h3>
+                        <p>Promover o raciocínio lógico e resolução de problemas através de gamificação e computação desplugada.</p>
+                        <div class="ods-impact">
+                            <div class="impact-item">
+                                <i class="fas fa-check-circle"></i>
+                                <span>Kahoot! para tabuada gamificada</span>
+                            </div>
+                            <div class="impact-item">
+                                <i class="fas fa-check-circle"></i>
+                                <span>Computação desplugada com algoritmos</span>
+                            </div>
+                            <div class="impact-item">
+                                <i class="fas fa-check-circle"></i>
+                                <span>PBL com problemas do cotidiano</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="ods-card" data-subject="ciencias">
+                    <div class="ods-image">
+                        <div class="subject-icon-large">
+                            <i class="fas fa-flask"></i>
+                        </div>
+                    </div>
+                    <div class="ods-content">
+                        <h3>Ciências</h3>
+                        <p>Estimular a curiosidade científica e o pensamento crítico através de investigação e estudos de caso reais.</p>
+                        <div class="ods-impact">
+                            <div class="impact-item">
+                                <i class="fas fa-check-circle"></i>
+                                <span>Kahoot! sobre sistema solar e corpo humano</span>
+                            </div>
+                            <div class="impact-item">
+                                <i class="fas fa-check-circle"></i>
+                                <span>Canva para infográficos de ecossistemas</span>
+                            </div>
+                            <div class="impact-item">
+                                <i class="fas fa-check-circle"></i>
+                                <span>Estudos de caso sobre problemas ambientais</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="ods-card" data-subject="fisica">
+                    <div class="ods-image">
+                        <div class="subject-icon-large">
+                            <i class="fas fa-atom"></i>
+                        </div>
+                    </div>
+                    <div class="ods-content">
+                        <h3>Física</h3>
+                        <p>Compreender fenômenos físicos e suas aplicações tecnológicas através de experimentação e simulações.</p>
+                        <div class="ods-impact">
+                            <div class="impact-item">
+                                <i class="fas fa-check-circle"></i>
+                                <span>Kahoot! com leis da física aplicadas</span>
+                            </div>
+                            <div class="impact-item">
+                                <i class="fas fa-check-circle"></i>
+                                <span>PBL com problemas de mecânica e energia</span>
+                            </div>
+                            <div class="impact-item">
+                                <i class="fas fa-check-circle"></i>
+                                <span>Sala invertida com experimentos virtuais</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="ods-card" data-subject="quimica">
+                    <div class="ods-image">
+                        <div class="subject-icon-large">
+                            <i class="fas fa-vial"></i>
+                        </div>
+                    </div>
+                    <div class="ods-content">
+                        <h3>Química</h3>
+                        <p>Explorar transformações químicas e suas aplicações na vida cotidiana através de visualização e experimentação.</p>
+                        <div class="ods-impact">
+                            <div class="impact-item">
+                                <i class="fas fa-check-circle"></i>
+                                <span>Kahoot! sobre tabela periódica interativa</span>
+                            </div>
+                            <div class="impact-item">
+                                <i class="fas fa-check-circle"></i>
+                                <span>PBL com química de medicamentos</span>
+                            </div>
+                            <div class="impact-item">
+                                <i class="fas fa-check-circle"></i>
+                                <span>Canva para visualização de moléculas</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="ods-card" data-subject="historia">
+                    <div class="ods-image">
+                        <div class="subject-icon-large">
+                            <i class="fas fa-landmark"></i>
+                        </div>
+                    </div>
+                    <div class="ods-content">
+                        <h3>História</h3>
+                        <p>Desenvolver consciência histórica e pensamento crítico através de análise de fontes e narrativas colaborativas.</p>
+                        <div class="ods-impact">
+                            <div class="impact-item">
+                                <i class="fas fa-check-circle"></i>
+                                <span>Kahoot! sobre períodos históricos</span>
+                            </div>
+                            <div class="impact-item">
+                                <i class="fas fa-check-circle"></i>
+                                <span>Canva para linhas do tempo interativas</span>
+                            </div>
+                            <div class="impact-item">
+                                <i class="fas fa-check-circle"></i>
+                                <span>Padlet para debates sobre patrimônio cultural</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="ods-stats">
+                <div class="ods-stat">
+                    <div class="stat-icon">
+                        <i class="fas fa-users"></i>
+                    </div>
+                    <div class="stat-info">
+                        <div class="stat-number">500+</div>
+                        <div class="stat-label">Estudantes Impactados</div>
+                    </div>
+                </div>
+                <div class="ods-stat">
+                    <div class="stat-icon">
+                        <i class="fas fa-book-open"></i>
+                    </div>
+                    <div class="stat-info">
+                        <div class="stat-number">6</div>
+                        <div class="stat-label">Disciplinas Contempladas</div>
+                    </div>
+                </div>
+                <div class="ods-stat">
+                    <div class="stat-icon">
+                        <i class="fas fa-tools"></i>
+                    </div>
+                    <div class="stat-info">
+                        <div class="stat-number">4</div>
+                        <div class="stat-label">Ferramentas Digitais</div>
+                    </div>
+                </div>
+                <div class="ods-stat">
+                    <div class="stat-icon">
+                        <i class="fas fa-chart-line"></i>
+                    </div>
+                    <div class="stat-info">
+                        <div class="stat-number">95%</div>
+                        <div class="stat-label">Taxa de Engajamento</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ODS Section -->
+    <section id="ods" class="ods-modern">
+        <div class="container-modern">
+            <div class="section-header-modern">
+                <div class="section-badge">
+                    <i class="fas fa-globe"></i>
+                    <span>Objetivos de Desenvolvimento Sustentável</span>
+                </div>
+                <h2 class="section-title-modern">
+                    Alinhamento com os <span class="highlight">ODS</span>
+                </h2>
+                <p class="section-subtitle-modern">
+                    Nosso projeto contribui diretamente para o alcance dos Objetivos de 
+                    Desenvolvimento Sustentável da ONU, promovendo educação de qualidade e inclusiva
+                </p>
+            </div>
+            
+            <div class="ods-showcase">
+                <div class="ods-card" data-ods="4">
+                    <div class="ods-image">
+                        <img src="https://brasil.un.org/profiles/undg_country/themes/custom/undg/images/SDGs/pt-br/SDG-4.svg" alt="ODS 4 - Educação de Qualidade">
+                    </div>
+                    <div class="ods-content">
+                        <h3>ODS 4 - Educação de Qualidade</h3>
+                        <p>Assegurar a educação inclusiva e equitativa de qualidade, promovendo oportunidades de aprendizagem ao longo da vida para todos.</p>
+                        <div class="ods-impact">
+                            <div class="impact-item">
+                                <i class="fas fa-check-circle"></i>
+                                <span>Metodologias ativas inclusivas</span>
+                            </div>
+                            <div class="impact-item">
+                                <i class="fas fa-check-circle"></i>
+                                <span>Tecnologias educacionais acessíveis</span>
+                            </div>
+                            <div class="impact-item">
+                                <i class="fas fa-check-circle"></i>
+                                <span>Formação continuada de professores</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="ods-card" data-ods="10">
+                    <div class="ods-image">
+                        <img src="https://brasil.un.org/profiles/undg_country/themes/custom/undg/images/SDGs/pt-br/SDG-10.svg" alt="ODS 10 - Redução das Desigualdades">
+                    </div>
+                    <div class="ods-content">
+                        <h3>ODS 10 - Redução das Desigualdades</h3>
+                        <p>Reduzir a desigualdade dentro dos países e entre eles, promovendo inclusão social e digital.</p>
+                        <div class="ods-impact">
+                            <div class="impact-item">
+                                <i class="fas fa-check-circle"></i>
+                                <span>Desenho Universal para Aprendizagem</span>
+                            </div>
+                            <div class="impact-item">
+                                <i class="fas fa-check-circle"></i>
+                                <span>Acessibilidade digital</span>
+                            </div>
+                            <div class="impact-item">
+                                <i class="fas fa-check-circle"></i>
+                                <span>Inclusão de estudantes com deficiência</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="ods-card" data-ods="17">
+                    <div class="ods-image">
+                        <img src="https://brasil.un.org/profiles/undg_country/themes/custom/undg/images/SDGs/pt-br/SDG-17.svg" alt="ODS 17 - Parcerias e Meios de Implementação">
+                    </div>
+                    <div class="ods-content">
+                        <h3>ODS 17 - Parcerias e Meios de Implementação</h3>
+                        <p>Fortalecer os meios de implementação e revitalizar a parceria global para o desenvolvimento sustentável.</p>
+                        <div class="ods-impact">
+                            <div class="impact-item">
+                                <i class="fas fa-check-circle"></i>
+                                <span>Parceria IFMS-CAPES-Escolas</span>
+                            </div>
+                            <div class="impact-item">
+                                <i class="fas fa-check-circle"></i>
+                                <span>Compartilhamento de conhecimento</span>
+                            </div>
+                            <div class="impact-item">
+                                <i class="fas fa-check-circle"></i>
+                                <span>Colaboração interinstitucional</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="ods-stats">
+                <div class="ods-stat">
+                    <div class="stat-icon">
+                        <i class="fas fa-users"></i>
+                    </div>
+                    <div class="stat-info">
+                        <div class="stat-number">500+</div>
+                        <div class="stat-label">Estudantes Impactados</div>
+                    </div>
+                </div>
+                <div class="ods-stat">
+                    <div class="stat-icon">
+                        <i class="fas fa-school"></i>
+                    </div>
+                    <div class="stat-info">
+                        <div class="stat-number">15+</div>
+                        <div class="stat-label">Escolas Parceiras</div>
+                    </div>
+                </div>
+                <div class="ods-stat">
+                    <div class="stat-icon">
+                        <i class="fas fa-chalkboard-teacher"></i>
+                    </div>
+                    <div class="stat-info">
+                        <div class="stat-number">50+</div>
+                        <div class="stat-label">Professores Capacitados</div>
+                    </div>
+                </div>
+                <div class="ods-stat">
+                    <div class="stat-icon">
+                        <i class="fas fa-universal-access"></i>
+                    </div>
+                    <div class="stat-info">
+                        <div class="stat-number">100%</div>
+                        <div class="stat-label">Acessibilidade</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer Moderno -->
+    <footer class="footer-modern">
+        <div class="container-modern">
+            <div class="footer-content-modern">
+                <div class="footer-brand">
+                    <div class="brand-logo">
+                        <i class="fas fa-graduation-cap"></i>
+                        <span>PIBID Digital</span>
+                    </div>
+                    <p>Transformando a educação através da inovação tecnológica e metodologias ativas.</p>
+                    <div class="social-links">
+                        <a href="#" class="social-link"><i class="fab fa-linkedin"></i></a>
+                        <a href="#" class="social-link"><i class="fab fa-github"></i></a>
+                        <a href="#" class="social-link"><i class="fab fa-instagram"></i></a>
+                    </div>
+                </div>
+                
+                <div class="footer-info">
+                    <h4>Projeto</h4>
+                    <p>"Integração de Tecnologias Digitais, Metodologias Ativas e Ensino Híbrido"</p>
+                </div>
+                
+                <div class="footer-team">
+                    <h4>Equipe</h4>
+                    <div class="team-member-main">
+                        <div class="member-photo">
+                            <img src="assets/kat.jpg" alt="Katcilane Silva - Responsável pelo Projeto">
+                        </div>
+                        <div class="member-info">
+                            <strong>Katcilane Silva</strong>
+                            <span>Responsável pelo Projeto - Bolsista PIBID</span>
+                            <div class="member-badge">Líder do Projeto</div>
+                        </div>
+                    </div>
+                    <div class="team-member">
+                        <strong>Prof. Moacir Juliani</strong>
+                        <span>Orientador</span>
+                    </div>
+                    <div class="team-member">
+                        <strong>Prof. Alan Pinheiro</strong>
+                        <span>Coorientador</span>
+                    </div>
+                </div>
+                
+                <div class="footer-institution">
+                    <h4>Instituição</h4>
+                    <p>IFMS - Campus Jardim</p>
+                    <p>CAPES - Fomento PIBID</p>
+                    <div class="institution-badge">
+                        <span>Estágio Supervisionado</span>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="footer-bottom">
+                <p>© 2025 - Desenvolvido com 💜 para revolucionar a educação</p>
+                <div class="footer-links">
+                    <a href="#">Privacidade</a>
+                    <a href="#">Termos</a>
+                    <a href="#">Contato</a>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Scripts -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jspdf/2.5.1/jspdf.umd.min.js"></script>
+    <script>
+        function generatePDF() {
+            const { jsPDF } = window.jspdf;
+            const doc = new jsPDF();
+            
+            // Configuração da apostila
+            doc.setFontSize(20);
+            doc.text('Mural Pedagógico Digital - PIBID', 20, 30);
+            
+            doc.setFontSize(16);
+            doc.text('Metodologias Ativas e Tecnologia Educacional', 20, 45);
+            
+            doc.setFontSize(12);
+            let y = 65;
+            
+            // Conteúdo da apostila
+            const content = [
+                '1. INTRODUÇÃO',
+                'O Mural Pedagógico Digital representa uma revolução na educação através de',
+                'metodologias ativas, tecnologia inclusiva e inovação pedagógica.',
+                '',
+                '2. FERRAMENTAS DIGITAIS',
+                '• Kahoot! - Gamificação para avaliações interativas',
+                '• Google Classroom - Gestão de turmas e atividades',
+                '• Canva - Criação de materiais visuais',
+                '• Padlet - Murais colaborativos digitais',
+                '',
+                '3. METODOLOGIAS ATIVAS',
+                '• Aprendizagem Baseada em Problemas (PBL)',
+                '• Sala de Aula Invertida',
+                '• Gamificação Educacional',
+                '• Aprendizagem Colaborativa',
+                '',
+                '4. PRÁTICAS PEDAGÓGICAS',
+                '• Atividades interativas e engajadoras',
+                '• Avaliação formativa contínua',
+                '• Feedback instantâneo',
+                '• Personalização do aprendizado',
+                '',
+                '5. COMPUTAÇÃO DESPLUGADA',
+                '• Atividades sem uso de computadores',
+                '• Desenvolvimento do pensamento computacional',
+                '• Conceitos de algoritmos e lógica',
+                '',
+                '6. PILARES DA COMPUTAÇÃO',
+                '• Decomposição de problemas',
+                '• Reconhecimento de padrões',
+                '• Abstração',
+                '• Algoritmos',
+                '',
+                '7. ACESSIBILIDADE',
+                '• Design universal para aprendizagem',
+                '• Tecnologias assistivas',
+                '• Inclusão digital',
+                '',
+                '8. BNCC - BASE NACIONAL COMUM CURRICULAR',
+                '• Competências digitais',
+                '• Pensamento científico e crítico',
+                '• Cultura digital',
+                '',
+                '9. ODS - OBJETIVOS DE DESENVOLVIMENTO SUSTENTÁVEL',
+                '• ODS 4: Educação de qualidade',
+                '• ODS 10: Redução das desigualdades',
+                '• ODS 17: Parcerias para implementação'
+            ];
+            
+            content.forEach(line => {
+                if (y > 270) {
+                    doc.addPage();
+                    y = 20;
+                }
+                
+                if (line.startsWith('•')) {
+                    doc.setFontSize(10);
+                    doc.text(line, 25, y);
+                } else if (line.match(/^\d+\./)) {
+                    doc.setFontSize(14);
+                    doc.setFont(undefined, 'bold');
+                    doc.text(line, 20, y);
+                    doc.setFont(undefined, 'normal');
+                } else {
+                    doc.setFontSize(11);
+                    doc.text(line, 20, y);
+                }
+                
+                y += line === '' ? 5 : 8;
+            });
+            
+            // Salvar o PDF
+            doc.save('Apostila-Mural-Pedagogico-PIBID.pdf');
+        }
+    </script>
+    <script src="js/script.js"></script>
+</body>
+</html>
