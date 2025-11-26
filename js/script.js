@@ -343,6 +343,7 @@ document.addEventListener('DOMContentLoaded', () => {
     
     // Inicializar apenas se não for mobile (cursor personalizado)
     if (!isMobile) {
+        document.body.classList.add('custom-cursor');
         new CustomCursor();
     }
     
